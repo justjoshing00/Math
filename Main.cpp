@@ -9,8 +9,7 @@ int main()
         vectors::vec3 q{ 4,5,6 };
 
         Result result;
-
-
+       
 
         result = add3(p, q);
         std::cout << result;

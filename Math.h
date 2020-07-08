@@ -3,6 +3,7 @@
 #include <iostream>
 
 
+
 struct Result
 {
 	float x = 0.0;
@@ -11,6 +12,8 @@ struct Result
 	float r = 0.0;
 	
 	friend std::ostream& operator<<(std::ostream& out, Result& presult);
+
+	
 
 };
 
@@ -27,4 +30,9 @@ struct numstruct
 		float tempr;
 };
 
+Result add3(vectors::vec3 a, vectors::vec3 b);
+
+Result subtract3(vectors::vec3 a, vectors::vec3 b);
+
+float mag3(vectors::vec3 a);
 
