@@ -1,0 +1,2 @@
+C:\Users\Joshua\source\repos\MathLibJO\Debug\MathLibJO.exe
+C:\Users\Joshua\source\repos\MathLibJO\Debug\MathLibJO.pdb

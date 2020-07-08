@@ -1,0 +1,41 @@
+﻿  Main.cpp
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,20): error C3646: 'add2': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,25): error C3646: 'subtract2': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,20): error C3646: 'add3': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,25): error C3646: 'subtract3': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,20): error C3646: 'add4': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,25): error C3646: 'subtract4': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Main.cpp(15,18): error C3861: 'add': identifier not found
+C:\Users\Joshua\source\repos\MathLibJO\Main.cpp(27,18): error C3861: 'subtract': identifier not found
+  Math.cpp
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,20): error C3646: 'add2': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(10,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,25): error C3646: 'subtract2': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(11,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,20): error C3646: 'add3': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(24,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,25): error C3646: 'subtract3': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(25,55): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,20): error C3646: 'add4': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,20): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(37,50): error C2238: unexpected token(s) preceding ';'
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,25): error C3646: 'subtract4': unknown override specifier
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,25): error C2059: syntax error: '('
+C:\Users\Joshua\source\repos\MathLibJO\Vec.h(38,55): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
