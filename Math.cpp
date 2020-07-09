@@ -91,5 +91,5 @@ float dot3(vectors::vec3 a, vectors::vec3 b) // ideally, wed like to just call t
 	float scalar = 0.0;
 	scalar = mag3(a)* mag3(b);
 
-	return 0.0;
+	return scalar;
 }

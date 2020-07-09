@@ -36,3 +36,4 @@ Result subtract3(vectors::vec3 a, vectors::vec3 b);
 
 float mag3(vectors::vec3 a);
 
+float dot3(vectors::vec3 a, vectors::vec3 b);

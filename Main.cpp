@@ -27,6 +27,22 @@ int main()
         std::cout << result;
 
     }
+    
+    {
+        vectors::vec3 p{ 5,6,7 };
+        float  result = 0;
+        result = mag3(p);
+
+        std::cout <<result;
+    }
+
+    {
+        vectors::vec3 p{ 5,6,7 };
+        vectors::vec3 q{ 2,3,4 };
+        float result = 0;
+        result = dot3(p, q);
+        std::cout << result;
+    }
 
 
 
