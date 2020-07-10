@@ -101,5 +101,7 @@ Result cross(vectors::vec3 a, vectors::vec3 b)
 	result.y = a.x * b.z - a.z * b.x;
 	result.z = a.x * b.y - a.y * b.x;
 	// one last thing: determining negatives. values are right, but im missing a step here somewhere
+	// i missed that "a -b + c alternating"
+	//i also missed that im probably going to need to create a temporary variable somewhere, because yeesh
 	return result;
 }
