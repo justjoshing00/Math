@@ -44,4 +44,4 @@ Result cross(vectors::vec3, vectors::vec3);
 // todo: transform
 //todo: translate
 //todo: matrix.h
-//todo: 
+//todo: identity
