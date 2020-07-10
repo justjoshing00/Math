@@ -30,6 +30,7 @@ struct numstruct
 		float tempr;
 };
 
+
 Result add3(vectors::vec3 a, vectors::vec3 b);
 
 Result subtract3(vectors::vec3 a, vectors::vec3 b);
@@ -37,3 +38,10 @@ Result subtract3(vectors::vec3 a, vectors::vec3 b);
 float mag3(vectors::vec3 a);
 
 float dot3(vectors::vec3 a, vectors::vec3 b);
+
+Result cross(vectors::vec3, vectors::vec3);
+
+// todo: transform
+//todo: translate
+//todo: matrix.h
+//todo: 

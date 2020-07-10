@@ -93,3 +93,13 @@ float dot3(vectors::vec3 a, vectors::vec3 b) // ideally, wed like to just call t
 
 	return scalar;
 }
+
+Result cross(vectors::vec3 a, vectors::vec3 b)
+{
+	Result result;
+	result.x = a.y * b.z - a.z * b.y;
+	result.y = a.x * b.z - a.z * b.x;
+	result.z = a.x * b.y - a.y * b.x;
+	// one last thing: determining negatives. values are right, but im missing a step here somewhere
+	return result;
+}
