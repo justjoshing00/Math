@@ -51,6 +51,13 @@ int main()
         result = cross(p, q);
         std::cout << result <<"\n";
     }
+    {
+        vectors::vec3 p{1, 2, 3};
+        float scalar = 10.0;
+        Result result;
+        result = scalarMultiple(p, scalar);
+        std::cout << result << "\n";
+    }
 
 
 }

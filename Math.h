@@ -39,6 +39,8 @@ float mag3(vectors::vec3 a);
 
 float dot3(vectors::vec3 a, vectors::vec3 b);
 
+Result scalarMultiple(vectors::vec3 a,float scalar);
+
 Result cross(vectors::vec3, vectors::vec3);
 
 // todo: transform

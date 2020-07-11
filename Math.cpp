@@ -94,6 +94,17 @@ float dot3(vectors::vec3 a, vectors::vec3 b) // ideally, wed like to just call t
 	return scalar;
 }
 
+Result scalarMultiple(vectors::vec3 a, float scalar)
+{
+	Result result;
+
+	result.x = a.x * scalar;
+	result.y = a.y * scalar;
+	result.z = a.z * scalar;
+
+	return result;
+}
+
 Result cross(vectors::vec3 a, vectors::vec3 b)
 {
 	Result result;
@@ -103,5 +114,6 @@ Result cross(vectors::vec3 a, vectors::vec3 b)
 	// one last thing: determining negatives. values are right, but im missing a step here somewhere
 	// i missed that "a -b + c alternating"
 	//i also missed that im probably going to need to create a temporary variable somewhere, because yeesh
+	//honestly im going to need to turn this whole thing into a matrix operation because otherwise this is gonna be dogshite
 	return result;
 }
