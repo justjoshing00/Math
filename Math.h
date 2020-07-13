@@ -42,6 +42,10 @@ float dot3(vectors::vec3 a, vectors::vec3 b);
 Result scalarMultiple(vectors::vec3 a,float scalar);
 
 Result cross(vectors::vec3, vectors::vec3);
+Result lerp(vectors::vec3, vectors::vec3, float norm);
+Result rotateZ(vectors::vec3, float angle);
+Result Normalize(vectors::vec3);
+
 
 // todo: transform
 //todo: translate

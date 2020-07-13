@@ -2,6 +2,8 @@
 #include <cmath>
 #include "Math.h"
 
+// this compiles, but the lack of temp variables means the output can be incorrect/is incorrect
+
 std::ostream& operator<<(std::ostream& out, Result& presult)
 {
 out << presult.x << presult.y << presult.z;
@@ -115,5 +117,44 @@ Result cross(vectors::vec3 a, vectors::vec3 b)
 	// i missed that "a -b + c alternating"
 	//i also missed that im probably going to need to create a temporary variable somewhere, because yeesh
 	//honestly im going to need to turn this whole thing into a matrix operation because otherwise this is gonna be dogshite
+	return result;
+}
+
+Result lerp(vectors::vec3 a, vectors::vec3 b, float norm)
+{
+	// (max - min) * norm = min
+	// (80 - 20) *0.5 + 20
+	// (b - a) * norm + a 
+	Result result;
+	
+	result.x = (b.x - a.x) * norm + a.x;
+	result.y = (b.y - a.y) * norm + a.y;
+	result.z = (b.z - a.z) * norm + a.z;
+	// actually do this properly plas
+	
+	return result;
+	
+}
+
+Result rotateZ(vectors::vec3 a, float angle)
+{
+	Result result;
+	result.x = (a.x * cos(angle)) - (a.y * sin(angle)); //duno if i should bracket these
+	result.y = (a.y * sin(angle) + a.x * cos(angle));
+	
+	
+	return result;
+}
+
+Result Normalize(vectors::vec3 a)
+{
+
+	Result result;
+	result.x = a.x / mag3(a);
+	result.y = a.y / mag3(a);
+	result.z = a.z / mag3(a);
+
+
+
 	return result;
 }

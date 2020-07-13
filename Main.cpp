@@ -43,6 +43,7 @@ int main()
         result = dot3(p, q);
         std::cout << result<< "\n";
     }
+    
     {
         vectors::vec3 p{ 5,6,7 };
         vectors::vec3 q{ 2,3,4 };
@@ -51,6 +52,7 @@ int main()
         result = cross(p, q);
         std::cout << result <<"\n";
     }
+    
     {
         vectors::vec3 p{1, 2, 3};
         float scalar = 10.0;
@@ -58,7 +60,34 @@ int main()
         result = scalarMultiple(p, scalar);
         std::cout << result << "\n";
     }
+    
+    {
+        vectors::vec3 p{ 30,0,73 };
+        vectors::vec3 q{ 60,80,120 };
+        float norm = 0.5;
+        Result result;
+        result = lerp(p, q,norm);
+        std::cout << result << "\n";
 
+    }
+    {
+        vectors::vec3 p{ -6,8,1};
+        
+        float angle = 90;
+        Result result;
+        result = rotateZ(p,  angle);
+        std::cout << result << "\n";
+
+    }
+    {
+        vectors::vec3 p{ -6,8,1 };
+        Result result;
+        result = Normalize(p);
+        std::cout << result << "\n";
+
+    }
+    
+   
 
 }
      
