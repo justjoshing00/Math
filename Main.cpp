@@ -2,6 +2,8 @@
 #include "Math.h"
 #include "Matrix.h"
 
+//note to teacher: this is kind of a mess, partially because of my own explorations. If I need to clean it up a bit for the purpose of submission to this class, I can definitely do that.
+
 
 int main()
 {
@@ -43,6 +45,7 @@ int main()
 
     {
         //vector dot product
+        //ugh, i need to do something with a temp variable so it doesnt
         vectors::vec3 p{ 5,6,7 };
         vectors::vec3 q{ 2,3,4 };
         float result = 0;// implicit conversion, find a better way!
@@ -51,7 +54,7 @@ int main()
     }
     
     {
-        //vector cross product - Im pretty sure this is busted
+        //vector cross product - I have a suspicion this is busted
         vectors::vec3 p{ 5,6,7 };
         vectors::vec3 q{ 2,3,4 };
         Result result;

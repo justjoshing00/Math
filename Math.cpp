@@ -88,10 +88,10 @@ float mag3(vectors::vec3 a)
 	return MAG;
 }
 
-float dot3(vectors::vec3 a, vectors::vec3 b) // ideally, wed like to just call the megnitude fuunction and use it in the scalar function, but of course they get defined at the same time so idk how id pull that one off(edit it works, dunno why tbh)
+float dot3(vectors::vec3 a, vectors::vec3 b) 
 {
 	float scalar = 0.0;
-	scalar = mag3(a)* mag3(b);
+	scalar = (a.x * b.x) + (a.y * b.y) + (a.z * b.z);
 
 	return scalar;
 }
@@ -113,10 +113,7 @@ Result cross(vectors::vec3 a, vectors::vec3 b)
 	result.x = a.y * b.z - a.z * b.y;
 	result.y = a.z * b.x - a.x * b.z;
 	result.z = a.x * b.y - a.y * b.x;
-	// one last thing: determining negatives. values are right, but im missing a step here somewhere
-	// i missed that "a -b + c alternating"
-	//i also missed that im probably going to need to create a temporary variable somewhere, because yeesh
-	//honestly im going to need to turn this whole thing into a matrix operation because otherwise this is gonna be dogshite
+	//honestly im going to need to turn this whole thing into a matrix operation because otherwise this is gonna be bad
 	return result;
 }
 
@@ -130,7 +127,7 @@ Result lerp(vectors::vec3 a, vectors::vec3 b, float norm)
 	result.x = (b.x - a.x) * norm + a.x;
 	result.y = (b.y - a.y) * norm + a.y;
 	result.z = (b.z - a.z) * norm + a.z;
-	// actually do this properly plas
+	
 	
 	return result;
 	
