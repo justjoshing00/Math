@@ -1,0 +1,2 @@
+C:\Users\Josh\Desktop\Work\PrivProg\Programming\MathLibJO\Math\x64\Debug\MathLibJO.exe
+C:\Users\Josh\Desktop\Work\PrivProg\Programming\MathLibJO\Math\x64\Debug\MathLibJO.pdb

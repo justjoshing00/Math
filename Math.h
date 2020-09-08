@@ -49,5 +49,4 @@ Result Normalize(vectors::vec3);
 
 // todo: transform
 //todo: translate
-//todo: matrix.h
 //todo: identity

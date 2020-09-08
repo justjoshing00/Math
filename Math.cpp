@@ -6,7 +6,7 @@
 
 std::ostream& operator<<(std::ostream& out, Result& presult)
 {
-out << presult.x << presult.y << presult.z;
+out << presult.x <<" "<< presult.y<<" " << presult.z;
 
 
 return out;
@@ -111,7 +111,7 @@ Result cross(vectors::vec3 a, vectors::vec3 b)
 {
 	Result result;
 	result.x = a.y * b.z - a.z * b.y;
-	result.y = a.x * b.z - a.z * b.x;
+	result.y = a.z * b.x - a.x * b.z;
 	result.z = a.x * b.y - a.y * b.x;
 	// one last thing: determining negatives. values are right, but im missing a step here somewhere
 	// i missed that "a -b + c alternating"
@@ -140,7 +140,7 @@ Result rotateZ(vectors::vec3 a, float angle)
 {
 	Result result;
 	result.x = (a.x * cos(angle)) - (a.y * sin(angle)); //duno if i should bracket these
-	result.y = (a.y * sin(angle) + a.x * cos(angle));
+	result.y = (a.x * sin(angle)) + (a.y * cos(angle));
 	
 	
 	return result;
